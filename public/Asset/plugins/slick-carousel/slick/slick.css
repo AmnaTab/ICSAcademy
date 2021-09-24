@@ -117,3 +117,9 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.carousel-caption {
+    position: absolute;
+    left: 1%;
+    text-align: left;
+    /* top: 2%; */
+}

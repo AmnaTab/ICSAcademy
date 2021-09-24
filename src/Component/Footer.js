@@ -1,73 +1,80 @@
 import React, { Component } from 'react'
-import reactDom from 'react-dom';
-
+import{Link} from 'react-router-dom';
 
 class Footer extends React.Component {
 	render() {
 		return (
 			<div>
-				<footer class="footer section">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="widget">
-									<h4 class="text-capitalize mb-4">Company</h4>
+				<footer className="footer section" id="ft">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-3 col-md-6 col-sm-6">
 
-									<ul class="list-unstyled footer-menu lh-35">
-										<li><a href="#">Terms & Conditions</a></li>
-										<li><a href="#">Privacy Policy</a></li>
-										<li><a href="#">Support</a></li>
-										<li><a href="#">FAQ</a></li>
-									</ul>
+								<div className='widget' >
+								  <div> 
+									  <img src = "./Asset/images/logo.jpg" />
+								  </div>
+
+								  <p>immeuble ben ismail Rue 18 janvier 9000 Béja.</p>
+								  <div>
+									<i className ="fa fa-phone"> +216 78 452 418 </i></div>
+
+									<div><i className ="fa fa-phone"> +216 52 303 273 </i></div>
+
+									<div><i className ="fa fa-envelope"> hello@icstartup.academy</i></div>
+									<div><i className ="fa fa-globe"> www.icstartup.net</i></div>
+
 								</div>
 							</div>
-							<div class="col-lg-2 col-md-6 col-sm-6">
-								<div class="widget">
-									<h4 class="text-capitalize mb-4">Quick Links</h4>
-
-									<ul class="list-unstyled footer-menu lh-35">
-										<li><a href="#">About</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Team</a></li>
-										<li><a href="#">Contact</a></li>
-									</ul>
+						
+							<div class="col-lg-3 col-md-6 col-sm-6">
+								<div className="footer-column">
+						
 								</div>
 							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6">
-								<div class="widget">
-									<h4 class="text-capitalize mb-4">Subscribe Us</h4>
-									<p>Subscribe to get latest news article and resources  </p>
 
-									<form action="#" class="sub-form">
-										<input type="text" class="form-control mb-3" placeholder="Subscribe Now ..." />
-										<a href="#" class="btn btn-main btn-small">subscribe</a>
-									</form>
+							<div className="col-lg-2 col-md-6 col-sm-6">
+								<div className="widget">
+								<h2 className="widget-title"><span>Liens</span></h2>
+								<div className = "menu-footer-container"> </div>
+									{/* <ul class="list-unstyled footer-menu lh-35"> */}
+									<ul id = "menu-footer" className = "menu">
+										<li><Link to ="/">Acceuil</Link></li>
+										<li><Link to ="/about">A propos</Link></li>
+										<li><Link to ="/formations">Nos Formations</Link></li>
+										<li><Link to ="/evenements">Evenements</Link></li>
+										<li><Link to ="/formateur">Formateurs</Link></li>
+										<li><Link to ="/inscription">inscription</Link></li>
+										<li><Link to ="/contact">Contact</Link></li>
+									</ul>
 								</div>
 							</div>
 
 							<div class="col-lg-3 ml-auto col-sm-6">
-								<div class="widget">
-									<div class="logo mb-4">
-										<h3>ICS<span>Academy</span></h3>
-									</div>
-									<h6><a href="tel:+23-345-67890" >hello@icstartup.academy</a></h6>
-									<a href="mailto:support@gmail.com"><span class="text-color h4">+216 52 303 273</span></a>
+								<div className="widget">
+									
+								<h2 className="widget-title"><span>Programme</span></h2>
+								
+									
+									
 								</div>
 							</div>
 						</div>
 
-						<div class="footer-btm pt-4">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="copyright">
-										&copy; Copyright Reserved to <span class="text-color">ICS.Academy</span> by <a href="https://themefisher.com/" target="_blank">ICStartup</a>
+						<div className="footer-btm pt-4">
+							<div className="row">
+								<div className="col-lg-6">
+									<div className="copyright">
+										&copy; Copyright Reserved to ICS.Academy by <a href="https://icstartup.digital" target="_blank">ICStartup</a>
 									</div>
 								</div>
-								<div class="col-lg-6 text-left text-lg-right">
-									<ul class="list-inline footer-socials">
-										<li class="list-inline-item"><a href="https://www.facebook.com/icstartup" target="_blank"><i class="ti-facebook mr-2"></i>Facebook</a></li>
-										<li class="list-inline-item"><a href="https://twitter.com/icstartup" target="_blank"><i class="ti-twitter mr-2"></i>Twitter</a></li>
-										<li class="list-inline-item"><a href="https://www.linkedin.com/company/icstartup/mycompany" target="_blank "><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
+								<div className="col-lg-6 text-left text-lg-right">
+									<ul className="list-inline footer-socials">
+										<li className="list-inline-item"><a href="https://www.facebook.com/icstartup" target="_blank"><i className="fab fa-facebook-f"></i></a></li>
+										<li className="list-inline-item"><a href="https://twitter.com/icstartup" target="_blank"><i className="fab fa-twitter"></i></a></li>
+										<li className="list-inline-item"><a href="https://www.linkedin.com/company/icstartup/mycompany" target="_blank "><i className="fab fa-linkedin-in"></i></a></li>
+										<li className="list-inline-item"><a href="https://www.instagram.com/international_coach_start_up" target="_blank"><i className="fab fa-instagram"></i></a></li>
+
 									</ul>
 								</div>
 							</div>

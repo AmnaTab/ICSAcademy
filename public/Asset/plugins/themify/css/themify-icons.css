@@ -984,9 +984,9 @@
 .ti-google:before {
 	content: "\e73e";
 }
-.ti-linkedin:before {
+/* .ti-linkedin:before {
 	content: "\e73f";
-}
+} */
 .ti-flickr:before {
 	content: "\e740";
 }

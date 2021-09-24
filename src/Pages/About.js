@@ -120,7 +120,7 @@ class About extends React.Component {
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="team-item-wrap mb-5">
                                         <div className="team-item position-relative">
-                                            <img src="Asset/images/GUERFAL-600x613.jpg" alt className="img-fluid w-100" />
+                                            <img src="Asset/images/GUERFAL.png" alt className="img-fluid w-100" />
                                             <div className="team-img-hover">
                                                 <ul className="team-social list-inline">
                                                     <li className="list-inline-item">
@@ -147,7 +147,7 @@ class About extends React.Component {
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="team-item-wrap mb-5">
                                         <div className="team-item position-relative">
-                                            <img src="Asset/images/t-6-5-1.jpg" alt className="img-fluid w-100" />
+                                            <img src="Asset/images/MOHAMED-ALI-BELAJOUZA1.png" alt className="img-fluid w-100" />
                                             <div className="team-img-hover">
                                                 <ul className="team-social list-inline">
                                                     <li className="list-inline-item">
@@ -166,15 +166,15 @@ class About extends React.Component {
                                             </div>
                                         </div>
                                         <div className="team-item-content">
-                                            <h4 className="mt-3 mb-0 text-capitalize">Jonathan Bean</h4>
-                                            <p>Math Teacher</p>
+                                            <h4 className="mt-3 mb-0 text-capitalize">MED ALI BELAJOUZA</h4>
+                                            <p>INGENIEUR FORMATEUR</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="team-item-wrap mb-5 ">
                                         <div className="team-item position-relative">
-                                            <img src="Asset/images/AYMEN-HABOUBI-600x600.jpg" alt className="img-fluid w-100" />
+                                            <img src="Asset/images/AYMEN-HABOUBI.png" alt className="img-fluid w-100" />
                                             <div className="team-img-hover">
                                                 <ul className="team-social list-inline">
                                                     <li className="list-inline-item">
@@ -201,7 +201,7 @@ class About extends React.Component {
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="team-item-wrap mb-5 mb-lg-0">
                                         <div className="team-item position-relative">
-                                            <img src="images/team/team-4.jpg" alt className="img-fluid w-100" />
+                                            <img src="Asset/images/yassine Hamdawi.png" alt className="img-fluid w-100" />
                                             <div className="team-img-hover">
                                                 <ul className="team-social list-inline">
                                                     <li className="list-inline-item">
@@ -220,8 +220,8 @@ class About extends React.Component {
                                             </div>
                                         </div>
                                         <div className="team-item-content">
-                                            <h4 className="mt-3 mb-0 text-capitalize">David Williams</h4>
-                                            <p>Senior Marketer</p>
+                                            <h4 className="mt-3 mb-0 text-capitalize">YASSINE HAMDAOUI</h4>
+                                            <p>INGENIEUR FORMATEUR</p>
                                         </div>
                                     </div>
                                 </div>
@@ -282,64 +282,8 @@ class About extends React.Component {
                             </div>
                         </div>
                     </section>
-                    {/*  Section Services End */}
-                    {/* Section Testimonial Start */}
-                    <section className="section testimonial bg-gray">
-                        <div className="container">
-                            <div className="row justify-content-center">
-                                <div className="col-lg-7 text-center">
-                                    <div className="section-title">
-                                        <span className="h6 text-color">Clients testimonial</span>
-                                        <h2 className="mt-3 content-title">Check what's our clients say about us</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="container">
-                            <div className="testimonial-wrap">
-                                <div className="testimonial-item position-relative">
-                                    <i className="ti-quote-left text-color" />
-                                    <div className="testimonial-item-content">
-                                        <p className="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
-                                        <div className="testimonial-author">
-                                            <h5 className="mb-0 text-capitalize">Thomas Johnson</h5>
-                                            <p>Excutive Director,themefisher</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item position-relative">
-                                    <i className="ti-quote-left text-color" />
-                                    <div className="testimonial-item-content">
-                                        <p className="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-                                        <div className="testimonial-author">
-                                            <h5 className="mb-0 text-capitalize">Mickel hussy</h5>
-                                            <p>Excutive Director,themefisher</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item position-relative">
-                                    <i className="ti-quote-left text-color" />
-                                    <div className="testimonial-item-content">
-                                        <p className="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti.</p>
-                                        <div className="testimonial-author">
-                                            <h5 className="mb-0 text-capitalize">James Watson</h5>
-                                            <p>Excutive Director,themefisher</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="testimonial-item position-relative">
-                                    <i className="ti-quote-left text-color" />
-                                    <div className="testimonial-item-content">
-                                        <p className="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-                                        <div className="testimonial-author">
-                                            <h5 className="mb-0 text-capitalize">Mickel hussy</h5>
-                                            <p>Excutive Director,themefisher</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+             
+
                 </div>
             </div>
         );
