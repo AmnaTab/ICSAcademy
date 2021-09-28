@@ -5,7 +5,6 @@ import Home from './Pages/Home';
 import Header from './Component/Header';
 import Footer from './Component/Footer';
 import About from './Pages/About';
-
 import NosFormations from './Pages/NosFormations';
 import Evenements from './Pages/Evenements';
 import Inscription from './Pages/Inscription';

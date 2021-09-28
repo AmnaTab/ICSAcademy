@@ -8,28 +8,12 @@ html {
 #scroll-top{
   width: 50px;
   height: 40px;
-  color: rgb(61, 59, 59);
+  color: rgb(8, 8, 8);
   position: fixed;
   right: 15px;
   bottom: 10px;
   z-index: 99;
 }
-#scroll-top:hover{
-  background-color: rgb(236, 91, 111);
-}
-#scroll-down{
-  width: 50px;
-  height: 40px;
-  color: rgb(61, 59, 59);
-  position: fixed;
-  left: 15px;
-  bottom: 10px;
-  z-index: 99;
-}
-#scroll-down:hover{
-  background-color: rgb(236, 91, 111);
-}
-
 
 
 body {
@@ -43,7 +27,7 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #242424;
+  color: #050404;
 }
 
 h1, .h1 {
@@ -528,7 +512,7 @@ ul.dropdown-menu li {
 }
 
 .bg-1 {
-  background: url("../images/bg/home-2.jpg") no-repeat 50% 50%;
+  background: url("../nv-slides/s1.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
